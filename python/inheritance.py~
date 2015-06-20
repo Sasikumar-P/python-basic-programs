@@ -1,0 +1,10 @@
+class Clock(object):
+	def __init__(self, hours=0,minutes=0,seconds=0):
+		self.hours=hours
+        	self.minutes = minutes
+        	self.seconds = seconds
+	
+	def set(self,hours, minutes, seconds=0):
+	        self.hours = hours
+	        self.minutes = minutes
+	        self.seconds = seconds
